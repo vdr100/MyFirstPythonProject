@@ -1,13 +1,9 @@
-x=int(input ("Enter your age"))
-
-if x<4 :
- print ("you are a toddler")
-elif x<13:
-   print ("child")
-elif x <17 :
-   print ("Teenager")
+x=int (input ("Enter your weight"))
+y= input ("Enter your units in Kg or pounds")
+if y=='kg':
+  print ("Weight in pounds is "+str(x*2.2))
+elif y=='lb' :
+ print ("Weight in kgs is " +str (x/2.2))
 else:
- print ("Adult")
-print ("done")
-
+  print ("incorrect weight")
 
